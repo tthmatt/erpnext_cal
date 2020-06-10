@@ -1,0 +1,43 @@
+{
+ "allow_copy": 1,
+ "creation": "2020-05-04 20:57:01.410818",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rebate_setting_child"
+ ],
+ "fields": [
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "rebate_setting_child",
+   "fieldtype": "Table",
+   "label": "Rebate Setting Child",
+   "options": "Rebate Setting Child"
+  }
+ ],
+ "hide_toolbar": 1,
+ "issingle": 1,
+ "modified": "2020-05-05 17:26:19.405118",
+ "modified_by": "Administrator",
+ "module": "Calculation",
+ "name": "Rebate Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
